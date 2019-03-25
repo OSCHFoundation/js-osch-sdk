@@ -1,0 +1,9 @@
+/node_modules/
+/tmp/
+/dist/
+/lib/
+/coverage/
+/jsdoc/
+/docs
+.DS_Store
+.idea/
