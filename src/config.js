@@ -19,8 +19,8 @@ let config = clone(defaultConfig);
  *
  * Usage browser:
  * ```
- * StellarSdk.Config.setAllowHttp(true);
- * StellarSdk.Config.setTimeout(5000);
+ * OschSdk.Config.setAllowHttp(true);
+ * OschSdk.Config.setTimeout(5000);
  * ```
  * @static
  */

@@ -53,8 +53,6 @@ export class TradeAggregationCallBuilder extends CallBuilder {
     } else {
         this.url.setQuery("offset", offset);
     }
-
-
   }
 
   /**
