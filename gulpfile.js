@@ -55,7 +55,7 @@ gulp.task('build:node', ['lint:src'], function() {
 gulp.task('build:browser', ['lint:src'], function() {
   return gulp.src('src/browser.js')
     .pipe(plugins.webpack({
-      output: { library: 'StellarSdk' },
+      output: { library: 'OschSdk' },
       module: {
         loaders: [
           { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'}

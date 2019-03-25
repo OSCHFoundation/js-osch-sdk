@@ -12,7 +12,7 @@ let config = clone(defaultConfig);
  *
  * Usage node:
  * ```
- * import {Config} from 'stellar-sdk';
+ * import {Config} from 'osch-sdk';
  * Config.setAllowHttp(true);
  * Config.setTimeout(5000);
  * ```
