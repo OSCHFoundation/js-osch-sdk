@@ -9,7 +9,7 @@ import {BadRequestError} from "./errors";
  * @class OfferCallBuilder
  * @constructor
  * @extends CallBuilder
- * @param {string} serverUrl Horizon server URL.
+ * @param {string} serverUrl Coast server URL.
  * @param {string} resource Resource to query offers
  * @param {...string} resourceParams Parameters for selected resource
  */

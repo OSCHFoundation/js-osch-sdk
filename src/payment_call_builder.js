@@ -7,7 +7,7 @@ export class PaymentCallBuilder extends CallBuilder {
      * Do not create this object directly, use {@link Server#payments}.
      * @constructor
      * @extends CallBuilder
-     * @param {string} serverUrl Horizon server URL.
+     * @param {string} serverUrl coast server URL.
      */
     constructor(serverUrl) {
         super(serverUrl);

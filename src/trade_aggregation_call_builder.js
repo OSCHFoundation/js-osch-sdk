@@ -10,7 +10,7 @@ const allowedResolutions = [60000, 300000, 900000, 3600000, 86400000, 604800000]
  * @class TradeAggregationCallBuilder
  * @extends CallBuilder
  * @constructor
- * @param {string} serverUrl serverUrl Horizon server URL.
+ * @param {string} serverUrl serverUrl Coast server URL.
  * @param {Asset} base base asset
  * @param {Asset} counter counter asset
  * @param {long} start_time lower time boundary represented as millis since epoch

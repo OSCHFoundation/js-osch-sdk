@@ -7,7 +7,7 @@ import {CallBuilder} from "./call_builder";
  * @class TradesCallBuilder
  * @extends CallBuilder
  * @constructor
- * @param {string} serverUrl serverUrl Horizon server URL.
+ * @param {string} serverUrl serverUrl Coast server URL.
  */
 export class TradesCallBuilder extends CallBuilder {
     constructor(serverUrl) {

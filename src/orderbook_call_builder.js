@@ -4,7 +4,7 @@ import {CallBuilder} from "./call_builder";
  * Creates a new {@link OrderbookCallBuilder} pointed to server defined by serverUrl.
  *
  * Do not create this object directly, use {@link Server#orderbook}.
- * @param {string} serverUrl serverUrl Horizon server URL.
+ * @param {string} serverUrl serverUrl Coast server URL.
  * @param {Asset} selling Asset being sold
  * @param {Asset} buying Asset being bought
  */
