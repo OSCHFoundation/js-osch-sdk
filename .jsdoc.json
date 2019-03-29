@@ -1,6 +1,6 @@
 {
   "source": {
-    "include": ["src", "node_modules/stellar-base/src"],
+    "include": ["src", "node_modules/osch-base/src"],
     "exclude": "node_modules/stellar-base/src/generated"
   },
   "opts": {
